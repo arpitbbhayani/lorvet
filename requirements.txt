@@ -1,0 +1,3 @@
+slackclient
+websocket-client
+slack-cleaner

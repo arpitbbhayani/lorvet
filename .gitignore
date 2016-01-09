@@ -1,0 +1,6 @@
+*.pyc
+*.pyo
+venv
+config.ini
+data/
+*.log
