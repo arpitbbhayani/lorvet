@@ -1,3 +1,8 @@
-slackclient
-websocket-client
-slack-cleaner
+nltk==3.1
+requests==2.9.1
+six==1.10.0
+slack-cleaner==0.1.3
+slackclient==0.16
+slacker==0.9.0
+websocket-client==0.35.0
+wheel==0.24.0
