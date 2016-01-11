@@ -19,10 +19,7 @@ if __name__ == '__main__':
     config = ConfigParser()
     config.read(options.config_file)
 
-    # Log configuration
-    log_filepath = config.get('log', 'log_file')
-
-    logging.basicConfig(filename=log_filepath,
+    logging.basicConfig(stream=sys.stdout,
                         level=logging.INFO,
                         format='%(asctime)s %(message)s')
 
